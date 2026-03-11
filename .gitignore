@@ -2,3 +2,12 @@ chicago.csv
 .ipynb_checkpoints/ 
 anaconda_projects/ 
 fix_jobs.py 
+ml_models/task1_random_forest.pkl 
+ml_models/task2_random_forest.pkl 
+ml_models/task3_random_forest.pkl 
+ml_models/task1_gradient_boosting.pkl 
+ml_models/task2_gradient_boosting.pkl 
+ml_models/task3_gradient_boosting.pkl 
+ml_models/task1_logistic_regression.pkl 
+ml_models/task2_logistic_regression.pkl 
+ml_models/task3_ridge_regression.pkl 
