@@ -1,0 +1,92 @@
+{
+  "task1": {
+    "best_model": "Gradient Boosting",
+    "task_type": "binary_classification",
+    "results": {
+      "Logistic Regression": {
+        "cv_f1_mean": 0.7654294864738489,
+        "cv_f1_std": 0.0018759431712584852,
+        "val_acc": 0.7656666666666667,
+        "val_f1": 0.7625932890938996,
+        "val_auc": 0.849591016072472,
+        "train_time": 0.6808006763458252
+      },
+      "Random Forest": {
+        "cv_f1_mean": 0.7823018062678834,
+        "cv_f1_std": 0.0014823984951710554,
+        "val_acc": 0.7923333333333333,
+        "val_f1": 0.7865208040858431,
+        "val_auc": 0.879951851444077,
+        "train_time": 24.025182723999023
+      },
+      "Gradient Boosting": {
+        "cv_f1_mean": 0.8019081027115448,
+        "cv_f1_std": 0.001145087097536093,
+        "val_acc": 0.8068333333333333,
+        "val_f1": 0.803667877380454,
+        "val_auc": 0.8875505612744571,
+        "train_time": 5.333096742630005
+      }
+    }
+  },
+  "task2": {
+    "best_model": "Gradient Boosting",
+    "task_type": "multiclass_classification",
+    "results": {
+      "Logistic Regression": {
+        "cv_f1_mean": 0.22603260300616487,
+        "cv_f1_std": 0.0006522722079128073,
+        "val_acc": 0.2786666666666667,
+        "val_f1": 0.22087993751159557,
+        "val_auc": null,
+        "train_time": 19.34742569923401
+      },
+      "Random Forest": {
+        "cv_f1_mean": 0.4634164342648543,
+        "cv_f1_std": 0.001300987424037754,
+        "val_acc": 0.3977222222222222,
+        "val_f1": 0.3744414862059972,
+        "val_auc": null,
+        "train_time": 89.52454590797424
+      },
+      "Gradient Boosting": {
+        "cv_f1_mean": 0.45920343031315297,
+        "cv_f1_std": 0.0020786367234510326,
+        "val_acc": 0.4621111111111111,
+        "val_f1": 0.42423875827143276,
+        "val_auc": null,
+        "train_time": 69.49197745323181
+      }
+    }
+  },
+  "task3": {
+    "best_model": "Gradient Boosting",
+    "task_type": "regression",
+    "results": {
+      "Ridge Regression": {
+        "cv_rmse_mean": 0.31341711463146943,
+        "cv_rmse_std": 0.0010673221549438198,
+        "val_rmse": 0.31551854278255287,
+        "val_mae": 0.24955815841751808,
+        "val_r2": 0.38011511613419346,
+        "train_time": 0.08730936050415039
+      },
+      "Random Forest": {
+        "cv_rmse_mean": 0.30051421749250795,
+        "cv_rmse_std": 0.0008273466625821873,
+        "val_rmse": 0.29929944971793804,
+        "val_mae": 0.23635474754885402,
+        "val_r2": 0.44220693835952707,
+        "train_time": 96.11381459236145
+      },
+      "Gradient Boosting": {
+        "cv_rmse_mean": 0.2978232051708299,
+        "cv_rmse_std": 0.0010473056883466565,
+        "val_rmse": 0.2980480970049224,
+        "val_mae": 0.2376528742705544,
+        "val_r2": 0.4468613854199329,
+        "train_time": 6.664631366729736
+      }
+    }
+  }
+}

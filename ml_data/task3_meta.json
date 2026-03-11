@@ -1,0 +1,31 @@
+{
+  "task_name": "task3",
+  "task_type": "regression",
+  "target_col": "CrimeCount",
+  "feature_names": [
+    "Community Area",
+    "Year",
+    "Month",
+    "Quarter",
+    "DayOfWeek",
+    "IsWeekend",
+    "Rolling7d",
+    "Month_sin",
+    "Month_cos",
+    "DayOfWeek_sin",
+    "DayOfWeek_cos",
+    "Season_Fall",
+    "Season_Spring",
+    "Season_Summer",
+    "Season_Winter",
+    "Lag1d",
+    "Lag3d",
+    "YearTrend",
+    "AreaMeanCount"
+  ],
+  "n_features": 19,
+  "train_size": 83398,
+  "val_size": 17871,
+  "test_size": 17871,
+  "smote_applied": false
+}

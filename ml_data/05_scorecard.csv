@@ -1,0 +1,10 @@
+Task,Model,Primary Metric,Secondary Metric,Best
+Task 1 — Arrest,Logistic Regression,AUC = 0.8519,Acc = 0.7681,
+Task 1 — Arrest,Random Forest,AUC = 0.8790,Acc = 0.7843,
+Task 1 — Arrest,Gradient Boosting,AUC = 0.8852,Acc = 0.7957,🏆
+Task 2 — Crime Type,Logistic Regression,F1-w = 0.2189,Acc = 0.2748,
+Task 2 — Crime Type,Random Forest,F1-w = 0.3652,Acc = 0.3893,
+Task 2 — Crime Type,Gradient Boosting,F1-w = 0.4217,Acc = 0.4614,🏆
+Task 3 — Crime Count,Ridge Regression,R² = 0.3679,RMSE = 1.280,
+Task 3 — Crime Count,Random Forest,R² = 0.4797,RMSE = 1.161,🏆
+Task 3 — Crime Count,Gradient Boosting,R² = 0.4738,RMSE = 1.168,

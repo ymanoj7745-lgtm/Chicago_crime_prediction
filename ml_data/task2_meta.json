@@ -1,0 +1,33 @@
+{
+  "task_name": "task2",
+  "task_type": "classification",
+  "target_col": "CrimeTypeEncoded",
+  "feature_names": [
+    "Domestic",
+    "ArrestInt",
+    "Hour",
+    "DayOfWeek",
+    "Month",
+    "Quarter",
+    "Year",
+    "IsWeekend",
+    "IsNight",
+    "Hour_sin",
+    "Hour_cos",
+    "Month_sin",
+    "Month_cos",
+    "DayOfWeek_sin",
+    "DayOfWeek_cos",
+    "freq_Location Description",
+    "Season_Fall",
+    "Season_Spring",
+    "Season_Summer",
+    "Season_Winter",
+    "Night_x_Weekend"
+  ],
+  "n_features": 21,
+  "train_size": 172070,
+  "val_size": 18000,
+  "test_size": 18000,
+  "smote_applied": true
+}
